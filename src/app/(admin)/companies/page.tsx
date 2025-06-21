@@ -1,11 +1,11 @@
+import AddCompanyButton from '@/app/components/AddCompanyButton';
+import CompanyRow from '@/app/components/CompanyRow';
+import CompanyTable from '@/app/components/CompanyTable';
+import Header from '@/app/components/Header';
+import SearchInput from '@/app/components/SearchInput';
+import { Status } from '@/app/components/StatusLabel';
+import Toolbar from '@/app/components/Toolbar';
 import React from 'react';
-import Header from '../components/Header';
-import Toolbar from '../components/Toolbar';
-import SearchInput from '../components/SearchInput';
-import AddCompanyButton from '../components/AddCompanyButton';
-import CompanyTable from '../components/CompanyTable';
-import CompanyRow from '../components/CompanyRow';
-import { Status } from '../components/StatusLabel';
 
 const Page = () => {
   return (
