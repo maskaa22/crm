@@ -4,7 +4,8 @@ import React from 'react';
 const page = () => {
   return (
     <main>
-      <Header>Dashboard</Header>
+      <Header>Dashboard / new companies</Header>
+      <div>some additional info</div>
     </main>
   );
 };
