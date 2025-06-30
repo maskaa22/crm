@@ -1,5 +1,3 @@
-import Header from '@/app/components/Header';
-
 import React from 'react';
 
 export interface PageProps {
@@ -12,7 +10,9 @@ const Page = async ({ params }: PageProps) => {
 
   return (
     <div>
-      <Header>Companies ({id})</Header>
+      <div className="py-6 px-10">
+        <p>{`Information about company (${id})`}</p>
+      </div>
     </div>
   );
 };
